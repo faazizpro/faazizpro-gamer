@@ -14,3 +14,59 @@ body{
 }
 
 /* Navbar Section */
+nav{
+    padding: 38px 0;
+    width: 1450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.logo{
+    width: 86.041px;
+    height: 40px;
+}
+.nav-title span{
+    color: #FF42A5;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    flex-shrink: 0;
+}
