@@ -24,7 +24,7 @@ nav{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 .nav-logo{
     display: flex;
@@ -149,7 +149,55 @@ ul li a{
 }
 
 /* We are gamer Section */
+.we-are-gamer{
+    /* height: 600px; */
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    flex-shrink: 0;
+    padding: 55px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 52px;
+}
 
+.wegame-info{
+    text-align: right;
+}
+
+.wegame-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.wegame-description{
+    width: 520px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.wegame-btn{
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+
+.quote{
+    width: 520px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: right;
+}
 
 
 
