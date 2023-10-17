@@ -152,7 +152,6 @@ ul li a{
 .we-are-gamer{
     /* height: 600px; */
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
-    flex-shrink: 0;
     padding: 55px 240px;
     display: flex;
     align-items: center;
@@ -196,7 +195,6 @@ ul li a{
     font-style: normal;
     font-weight: 500;
     line-height: 45px;
-    text-align: right;
 }
 
 
@@ -279,4 +277,41 @@ ul li a{
     }
 
     /* We Are Gamer Mobile Responsive */
+    .we-are-gamer{
+        flex-direction: column;
+        margin-top: 137px;
+        text-align: center;
+        padding: 40px 0;
+        background-image: none;
+    }
+    .wegame-image{
+        display: none;
+    }
+    .gamer-img{
+        /* width: 100%; */
+    }
+
+    .wegame-info{
+        text-align: center;
+    }
+
+    .wegame-title{
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    .wegame-description{
+        width: 350px;
+        margin: 0 auto;
+        color: #534C64;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 32px;
+    }
+    .quote{
+        width: 380px;
+        font-size: 24px;
+        font-size: 20px;
+    }
 }
