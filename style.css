@@ -148,6 +148,12 @@ ul li a{
     background: #4EC5F7;
 }
 
+/* We are gamer Section */
+
+
+
+
+
 /* Mobile Responsive Starts */
 
 @media screen and (max-width: 425px) {
@@ -167,7 +173,7 @@ ul li a{
     /* Hero Section Mobile Responsive */
     .hero{
         flex-direction: column-reverse;
-        align-items: center;
+        align-items: center; 
         justify-content: center;
         padding: 0 40px;
     }
