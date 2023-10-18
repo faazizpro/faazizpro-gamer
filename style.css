@@ -412,8 +412,7 @@ ul li a{
 }
 
 .career-img{
-    /* width: 100%; */
-    
+    /* width: 100%; */ 
 }
 
 
@@ -577,5 +576,23 @@ ul li a{
     .pg-img2{
         top: 150px;
         left: 100px;
+    }
+
+    .careers{
+        flex-direction: column;
+    }
+    .career-info{
+        padding: 0 40px;    
+    }
+    .career-img{
+        width: 100%; 
+    }
+    .career-lists{
+        gap: 20px;
+    }
+    .list{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 40px;
     }
 }
