@@ -677,5 +677,16 @@ footer{
         line-height: 40px;
     }
 
-
+    /* Footer */
+    footer{
+        padding: 100px 0;
+    }
+    .end-menu{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* gap: 60px; */
+    }
+    .conclusion{
+        text-align: center;
+    }
 }
