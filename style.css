@@ -454,6 +454,48 @@ ul li a{
     flex-wrap: wrap;
 }
 
+footer{
+    padding: 120px 0;
+    background: #0B0223;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.edited{
+    color: white;
+}
+
+.end-menu{
+    display: flex;
+    gap: 60px;
+}
+
+.end-menu p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.rules p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.conclusion{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
 
 /* Mobile Responsive Starts */
 
