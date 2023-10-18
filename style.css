@@ -416,7 +416,43 @@ ul li a{
 }
 
 /* game-types */
+.game-types{
+    padding: 120px 200px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
 
+.game{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    background-color: #fff;
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    /* transition: .6s; */
+}
+
+.game:hover{
+    border: 1px solid #FF42A5;
+}
+.game:hover p{
+    color: #FF42A5;
+    transition: .3s;
+}
+
+.game p{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.game-types{
+    margin: 0 auto;
+    display: flex;
+    gap: 27px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 
 /* Mobile Responsive Starts */
