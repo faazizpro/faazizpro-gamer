@@ -348,6 +348,23 @@ ul li a{
     left: -150px;
 }
 
+.pg-img2{
+    top: 450px;
+    left: 450px;
+}
+
+.pg-info h2{
+    text-align: start;
+}
+.pg-info p{
+    text-align: start;
+}
+
+/* play-games */
+.play-games{
+    flex-direction: row-reverse;
+}
+
 /* Mobile Responsive Starts */
 
 @media screen and (max-width: 425px) {
@@ -504,5 +521,9 @@ ul li a{
         height: 80%;
         top: 150px;
         left: -50px;
+    }
+    .pg-img2{
+        top: 150px;
+        left: 100px;
     }
 }
